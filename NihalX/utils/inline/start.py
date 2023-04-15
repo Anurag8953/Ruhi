@@ -53,10 +53,5 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="sᴜᴩᴩᴏʀᴛ", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
-        [
-            InlineKeyboardButton(
-                    text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"{config.UPSTREAM_REPO}"
-                )
-        ],
      ]
     return buttons
